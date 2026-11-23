@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas-lights</title>
+  </head>
+  <body>
+    <main>
+
+      <h1> Christmas Lights </h1>
+
+      <div id="lights">
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+      </div>
+
+      <div class="controls">
+        <button id="start-btn"> Start </button>
+        <button id="stop-btn"> Stop </button>
+      </div>
+
+      <div class="speed-controls">
+        <label for="interval"> Speed (milliseconds)</label>
+        <input type="number" id="interval" value="500" min="100">
+      </div>
+
+    </main>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
