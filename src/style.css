@@ -1,0 +1,22 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#lights {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 100px;
+
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
